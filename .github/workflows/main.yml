@@ -2,7 +2,7 @@ name: Kindle4rss auto deliver
 
 on:
   schedule:
-    - cron: "0 23,3,9,13 * * *"
+    - cron: "0 0,6,12 * * *"
   workflow_dispatch:
 
 jobs:
